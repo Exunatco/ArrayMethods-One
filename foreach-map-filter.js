@@ -145,9 +145,9 @@ Examples:
 
 function extractFullName(arr) {
     return arr.map(function (e) {
-        let first = e.first;
-        let last = e.last;
-        return first + ' ' + last
+        let firstName = e.first;
+        let lastName = e.last;
+        return firstName + ' ' + lastName
     })
 }
 
